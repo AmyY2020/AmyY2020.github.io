@@ -1,0 +1,198 @@
+/* Genearl part */
+p {
+    font-size: 1.2rem;
+}
+.bgr-flower {
+    
+    position: absolute;
+    opacity: 30%;
+    top: 70px;
+    right: 0;
+    z-index: -1;
+    width: 24%;
+}
+    
+.background-image {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+/* Navagation bar */
+.nav-right {
+    margin-right: 50px;
+}
+.nav-space {
+    padding-right: 30px;
+}
+.logo-size {
+    width: 22px;
+    margin-left: 30px;
+}
+.menu-icon {
+    font-size: 32px;
+}
+.menu-icon-space {
+    padding: 0 0.75rem;
+}
+.item-space {
+    padding: 0.5rem 1rem;
+}
+.item-icon-space {
+    padding-right: 0.7rem;
+}
+/* Work page */
+.container-width {
+    max-width: 1500px;
+}
+
+
+.row-space {
+    margin-top: 10vh;
+    margin-bottom: 50px;
+}
+.text-top-space {
+    margin-top: 100px;
+}
+.item-wrapper {
+    position: relative;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.item-wrapper:hover .item-text {
+    color: #ffffff;
+    
+    
+}
+.image-darken {
+    transition: 1s;
+    filter: brightness(15%);
+}
+.item-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width:100%;
+    color: gray;
+    transition: 1s;   
+}
+
+
+/* about page */
+.intro-text-space {
+ max-width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.introduction-space {
+    margin-top: 150px;
+    
+}
+.image-space {
+    margin-left: 3rem;
+}
+/* contact page */
+.heading {
+    color: #707070;
+}
+.send-color {
+    background-color: #7E8449;
+    border: none;
+}
+.send-color:hover {
+    background-color: #464928;
+    border: none;
+}
+.send-hidden {
+    display: none;
+}
+
+/* View design page */
+.icon-left-space {
+    margin-left: 100px !important;
+}
+.subnav-space {
+    margin-top: 13vh;   
+}
+.sub-nav-space {
+    margin-top: revert;
+}
+
+.logo-image {
+    width: 82%;  
+}
+.logo-image-delect {
+    width: 56%;
+}
+.dialog-height {
+    height:70vh;
+}
+.dialog-image-bird {
+    width:50%;
+}
+.dialog-image-space {
+    display: block;
+    margin: 0 auto;
+}
+.dialog-border {
+    border: none;
+}
+.dialog-image-math {
+    width:80%
+}
+.logo-image-math{
+    width: 70%;
+}
+.view-item-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+.cursor-point {
+    cursor: pointer;
+}
+
+/* UX/UI page */
+.sub-container {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+.research-image {
+    width: 100%;
+}
+.text-spce {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.image-spce {
+    margin-right:4rem;
+}
+/* media for all */
+@media (min-width: 992px) {
+  .navbar-expand-lg .btn-group {
+    display: none;
+ }
+}
+
+@media (min-width: 768px) and (max-width:1025px) {
+    .sub-container {
+      max-width:50vw;
+      margin: 0 auto;
+   }
+  }
+
+@media (max-width: 767px) {
+    .sub-container {
+      max-width:90vw;
+      margin: 0 auto;
+   }
+  }
