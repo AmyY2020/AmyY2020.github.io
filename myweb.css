@@ -216,3 +216,9 @@ p {
     }
 }
 
+@media (max-width: 415px) {
+    .porfile-position {
+        width: auto;
+        float: none;
+    }
+}
