@@ -101,6 +101,10 @@ p {
 .image-space {
     margin-left: 3rem;
 }
+.porfile-position {
+    width: 35%;
+    float: right;
+}
 /* contact page */
 .heading {
     color: #707070;
@@ -205,3 +209,16 @@ p {
       margin: 0 auto;
    }
   }
+
+@media (max-width:1024px) {
+    .item-text {
+        color: black;
+    }
+}
+@media (max-width:415px) {
+    .porfile-position {
+        width: auto;
+        float: none;
+    }
+
+}
