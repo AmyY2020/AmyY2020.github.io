@@ -82,6 +82,11 @@
           <div class="align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Math Game for Children</div>   
         </div>
 
+        <div id="monster1" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
+          <img class="logo-image-monster align-self-center" src="image/monster1.png" alt="meth-game" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Character Design</div>   
+        </div>
+
         <div id="booklet" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
           <img class="logo-image-booklet align-self-center" src="image/booklet/Booklet.png" alt="booklet-cover">
           <div class="align-self-center">Design Booklet for Restaurant</div>   
@@ -109,6 +114,8 @@
                     <div id="math-game-app-img2" class="carousel-item align-self-center">
                       <img class="dialog-image-math dialog-image-space" src="image/mathgame.png" class="d-block" alt="math game">
                     </div>
+                    <div id="monster1-img" class="carousel-item align-self-center">
+                      <img class="dialog-image-monster dialog-image-space" src="image/monster1.png" class="d-block" alt="monster image">
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -137,6 +144,7 @@
     document.getElementById("restaurant-logo-img").classList.remove('active');
     document.getElementById("math-game-app-img").classList.remove('active');
     document.getElementById("math-game-app-img2").classList.remove('active');
+    document.getElementById("monster1-img").classList.remove('active');
     document.getElementById("language-learning-app-img").classList.add('active');
   });
 
@@ -145,6 +153,7 @@
     document.getElementById("restaurant-logo-img").classList.remove('active');
     document.getElementById("math-game-app-img").classList.remove('active');
     document.getElementById("math-game-app-img2").classList.remove('active');
+    document.getElementById("monster1-img").classList.remove('active');
     document.getElementById("restaurant-logo-img").classList.add('active');
   });
 
@@ -153,7 +162,16 @@
     document.getElementById("restaurant-logo-img").classList.remove('active');
     document.getElementById("math-game-app-img").classList.remove('active');
     document.getElementById("math-game-app-img2").classList.remove('active');
+    document.getElementById("monster1-img").classList.remove('active');
     document.getElementById("math-game-app-img").classList.add('active');
+  });
+  document.getElementById("monster1").addEventListener("click", function() {
+    document.getElementById("language-learning-app-img").classList.remove('active');
+    document.getElementById("restaurant-logo-img").classList.remove('active');
+    document.getElementById("math-game-app-img").classList.remove('active');
+    document.getElementById("math-game-app-img2").classList.remove('active');
+    document.getElementById("monster1-img").classList.remove('active');
+    document.getElementById("monster1-img").classList.add('active');
   });
 
   document.getElementById("booklet").addEventListener("click", function() {

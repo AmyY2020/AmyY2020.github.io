@@ -160,8 +160,14 @@ p {
 .dialog-image-math {
     width:80%
 }
+.dialog-image-monster {
+    width:40%;
+}
 .logo-image-math{
     width: 65%;
+}
+.logo-image-monster {
+    width: 30%;
 }
 .view-item-wrapper {
     position: relative;
