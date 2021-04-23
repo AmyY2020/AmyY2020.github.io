@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.heading-position {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+svg {
+    width: 20%;
+    position: relative;
+    padding-bottom: 9rem;
+}
+
+#straw {
+    animation: straw-anim 1s alternate-reverse infinite steps(2);
+}
+
+@keyframes straw-anim {
+    from {
+        transform: rotate(-10deg) translateX(-10px); 
+    }
+    to {
+        transform: rotateZ(5deg) translateX(5px);
+    }
+}
+
+.bubbles img {
+    width: 5%;
+    opacity: 0;
+    animation: bubble 7s linear infinite;
+}
+/* .bubbles {
+    position: absolute;
+    bottom: 0px;
+    z-index: 3;
+} */
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        
+        opacity: 1;
+    }
+    70% {
+        
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1) {
+    animation-delay: 4s;
+}
+.bubbles img:nth-child(2) {
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3) {
+    animation-delay: 5s;
+}
+.bubbles img:nth-child(4) {
+    animation-delay:6s;
+}
+.bubbles img:nth-child(5) {
+    animation-delay:8s;
+}
+.backg-color {
+    background: rgb(251,237,151);
+    background: linear-gradient(355deg, rgba(251,237,151,1) 17%, rgba(232,108,60,1) 83%); 
+    clip-path: circle(71.9% at 48% 0);
+}
+#button:hover {
+    cursor: pointer;
+}
+#button:hover .circle-width {
+    stroke-width: 2px;
+    r: 27;
+}
+#button:hover .bubble-text {
+    font-size: 12px;
+}
