@@ -27,7 +27,8 @@ svg {
 }
 
 .bubbles img {
-    width: 5%;
+    width: 20px;
+    height: 20px;
     opacity: 0;
     animation: bubble 7s linear infinite;
 }
