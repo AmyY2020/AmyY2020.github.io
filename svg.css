@@ -8,7 +8,7 @@ body {
     font-family: 'Berkshire Swash', cursive;
 }
 svg {
-    width: 20%;
+    width: 80%;
     height: 100%;
     position: relative;
     padding-bottom: 9rem;
@@ -82,9 +82,9 @@ svg {
     cursor: pointer;
 }
 #button:hover .circle-width {
-    stroke-width: 2px;
-    r: 27;
+    stroke-width: 4px;
+    r: 38;
 }
 #button:hover .bubble-text {
-    font-size: 12px;
+    font-size: 18px;
 }
