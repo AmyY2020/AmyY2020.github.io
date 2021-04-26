@@ -19,11 +19,10 @@ svg {
 }
 
 @keyframes straw-anim {
-    from {
-        transform: rotate(-10deg) translateX(-10px); 
-    }
+    
     to {
-        transform: rotateZ(5deg) translateX(5px);
+        transform-origin: bottom;
+        transform: rotateZ(5deg);
     }
 }
 
