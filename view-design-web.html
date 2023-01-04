@@ -11,23 +11,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <title>amy's page</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <body class="bg">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
         <div>
-          <img class="logo-size" src="./image/Amy.logo.png"/>
-          <a class="navbar-brand" href="./about.html">Amy</a>
+          <a  href="./index.html" style="cursor: pointer;">
+            <img class="logo-size" src="./image/signature.png" alt="signature of amy">
+          </a>
         </div>
+        
         
         <div class="btn-group">
           <button class="btn menu-icon-space" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bi bi-list menu-icon"></i>
           </button>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-            <li> <a class="dropdown-item item-space" href="./about.html"><i class="bi bi-person item-icon-space"></i>ABOUT</a></li>
-            <li> <a class="dropdown-item item-space" href="./index.html"><i class="bi bi-file-earmark-text item-icon-space"></i>WORKS</a></li>
+            <li class="nav-link-font"> <a class="dropdown-item item-space" href="./index.html"><i class="bi bi-house-door item-icon-space"></i>Home</a></li>
+            <li> <a class="dropdown-item item-space" href="./ux-ui.html"><i class="bi bi-file-earmark-text item-icon-space"></i>More Works</a></li>
+            <li> <a class="dropdown-item item-space" href="./about.html"><i class="bi bi-person item-icon-space"></i>About</a></li>
             <!-- <li> <a class="dropdown-item item-space" href="#"><i class="bi bi-pencil item-icon-space"></i>BLOG</a></li> -->
-            <li> <a class="dropdown-item item-space" href="./contact.html"><i class="bi bi-envelope item-icon-space"></i>CONTACT</a></li>
+            <!-- <li> <a class="dropdown-item item-space" href="./contact.html"><i class="bi bi-envelope item-icon-space"></i>CONTACT</a></li> -->
           </ul>
         </div>
 
@@ -35,61 +38,67 @@
         <div class="collapse navbar-collapse justify-content-end nav-right" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item nav-space">
-              <a class="nav-link" aria-current="page" href="./about.html">ABOUT</a>
+              <a class="nav-link nav-link-font" href="./index.html" style="cursor: pointer;">Home</a>
             </li>
             <li class="nav-item nav-space">
-              <a class="nav-link active" href="./index.html">WORKS</a>
+              <a class="nav-link" href="./ux-ui.html">More Works</a>
             </li>
+            <li class="nav-item nav-space">
+              <a class="nav-link" aria-current="page" href="./about.html">About</a>
+            </li>
+            
             <!-- <li class="nav-item nav-space">
               <a class="nav-link" href="#">BLOG</a>
             </li> -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="./contact.html">CONTACT</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
     </nav>
     <div class="container">
-      <img class="bgr-flower" src="./image/flower.png" alt="background-flower"/>
+      <!-- <img class="bgr-flower" src="./image/flower.png" alt="background-flower"/> -->
       <nav aria-label="breadcrumb" class="d-flex subnav-space">
-        <ol class="breadcrumb">
+        <!-- <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="./index.html">WORKS</a></li>
           <li class="breadcrumb-item active" aria-current="page">Product Design</li>
-        </ol>
+        </ol> -->
       </nav>
     
-      <div class="d-flex justify-content-center">
-        <h2>Products Design</h2>
-      </div>
-      <div class="d-flex justify-content-center">
-      <hr style="width:50%">
+      <div>
+        <h2 class="text-print">Design for Prints</h2>
       </div>
 
       <div class="row product-bottom-space">
-        <div id="language-learning-app" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          <img class="logo-image align-self-center" src="image/bird.png" alt="bird logo">
-          <div class="align-self-center">Language Learning Application</div>
+        <div id="poster" class="col-12 col-md-6 col-lg-6  d-flex justify-content-center">
+          <img class="print-image align-self-center cursor-point view-item-wrapper" src="image/print_for4.png" alt="printnails" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <!-- <div class="align-self-center">Application Logo</div> -->
           <!-- <p class="align-self-center">Language learning logo</p>    -->
         </div>
 
-        <div id="restaurant-logo" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
-          <img class="logo-image-delect align-self-center" src="image/delect.png" alt="restaurant logo" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <!-- <div id="restaurant-logo" class="col-12 col-md-6 col-lg-6 view-item-wrapper d-flex flex-column cursor-point">
+          <img class="logo-nail-height align-self-center" src="image/delect.png" alt="restaurant logo" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <div class="align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Restaurant Logo</div>   
         </div>
         <div id="math-game-app" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
-          <img class="logo-image-math align-self-center" src="image/space-math-page1-01.png" alt="meth-game" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <img class="logo-nail-height align-self-center" src="image/space-math-page1-01.png" alt="meth-game" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <div class="align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Math Game for Children</div>   
         </div>
 
         <div id="monster1" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
-          <img class="logo-image-monster align-self-center" src="image/bee.png" alt="meth-game" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <img class="logo-nail-height align-self-center" src="image/bee.png" alt="meth-game" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           <div class="align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Illustration</div>   
         </div>
 
-        <div id="booklet" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
-          <img class="logo-image-booklet align-self-center" src="image/booklet/Booklet.png" alt="booklet-cover">
-          <div class="align-self-center">Design Booklet for Restaurant</div>   
+        <div id="bookcover" class="col-12 col-md-6 col-lg-4 view-item-wrapper d-flex flex-column cursor-point">
+          <img class="logo-nail-height align-self-center" src="image/Bookcover.jpg" alt="meth-game" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Cover Design</div>   
+        </div> -->
+
+        <div id="booklet" class="col-12 col-md-6 col-lg-6  d-flex">
+          <img class="print-image align-self-center view-item-wrapper cursor-point" src="image/booklet/menu_cover.png" alt="menucover">
+          <!-- <div class="align-self-center">Design Booklet</div>    -->
         </div>
 
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -102,20 +111,24 @@
                 <div id="carouselExampleInterval" class="carousel slide carousel-dark" data-bs-ride="carousel">
                   
                   <div class="carousel-inner dialog-height d-flex">
-                    <div id="language-learning-app-img" class="carousel-item align-self-center">
-                      <img class="dialog-image-bird dialog-image-space" src="image/bird.png" class="d-block" alt="bird logo">
+                    <div id="print1-img" class="carousel-item align-self-center">
+                      <img class="dialog-image-size dialog-image-space" src="image/print1.png" class="d-block" alt="cake">
                     </div>
-                    <div id="restaurant-logo-img" class="carousel-item align-self-center">
-                      <img class="dialog-image-bird dialog-image-space" src="image/delect.png" class="d-block" alt="restaurant logo">
+                    <div id="print2-img" class="carousel-item align-self-center">
+                      <img class="dialog-image-size dialog-image-space" src="image/print2.png" class="d-block" alt="drinktea">
                     </div>
-                    <div id="math-game-app-img" class="carousel-item align-self-center">
-                      <img class="dialog-image-math dialog-image-space" src="image/space-math-page1-01.png" class="d-block" alt="math game">
+                    <div id="print3-img" class="carousel-item align-self-center">
+                      <img class="dialog-image-size dialog-image-space" src="image/print3.png" class="d-block" alt="coconut">
                     </div>
-                    <div id="math-game-app-img2" class="carousel-item align-self-center">
-                      <img class="dialog-image-math dialog-image-space" src="image/mathgame.png" class="d-block" alt="math game">
+                    <div id="print4-img" class="carousel-item align-self-center">
+                      <img class="dialog-image-size dialog-image-space" src="image/print4.png" class="d-block" alt="peach">
                     </div>
-                    <div id="monster1-img" class="carousel-item align-self-center">
+                    <!-- <div id="monster1-img" class="carousel-item align-self-center">
                       <img class="dialog-image-monster dialog-image-space" src="image/bee.png" class="d-block" alt="monster image">
+                    </div>
+                    <div id="bookcover-img" class="carousel-item align-self-center">
+                      <img class="dialog-image-bookcover dialog-image-space" src="image/Bookcover.jpg" class="d-block" alt="bookcoveer image">
+                    </div> -->
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -139,41 +152,49 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
   </script>
   <script>
-  document.getElementById("language-learning-app").addEventListener("click", function() {
-    document.getElementById("language-learning-app-img").classList.remove('active');
-    document.getElementById("restaurant-logo-img").classList.remove('active');
-    document.getElementById("math-game-app-img").classList.remove('active');
-    document.getElementById("math-game-app-img2").classList.remove('active');
-    document.getElementById("monster1-img").classList.remove('active');
-    document.getElementById("language-learning-app-img").classList.add('active');
+  document.getElementById("poster").addEventListener("click", function() {
+    document.getElementById("print1-img").classList.remove('active');
+    document.getElementById("print2-img").classList.remove('active');
+    document.getElementById("print3-img").classList.remove('active');
+    document.getElementById("print4-img").classList.remove('active');
+    // document.getElementById("monster1-img").classList.remove('active');
+    document.getElementById("print1-img").classList.add('active');
   });
 
-  document.getElementById("restaurant-logo").addEventListener("click", function() {
-    document.getElementById("language-learning-app-img").classList.remove('active');
-    document.getElementById("restaurant-logo-img").classList.remove('active');
-    document.getElementById("math-game-app-img").classList.remove('active');
-    document.getElementById("math-game-app-img2").classList.remove('active');
-    document.getElementById("monster1-img").classList.remove('active');
-    document.getElementById("restaurant-logo-img").classList.add('active');
-  });
+  // document.getElementById("restaurant-logo").addEventListener("click", function() {
+  //   document.getElementById("language-learning-app-img").classList.remove('active');
+  //   document.getElementById("restaurant-logo-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img2").classList.remove('active');
+  //   document.getElementById("monster1-img").classList.remove('active');
+  //   document.getElementById("restaurant-logo-img").classList.add('active');
+  // });
 
-  document.getElementById("math-game-app").addEventListener("click", function() {
-    document.getElementById("language-learning-app-img").classList.remove('active');
-    document.getElementById("restaurant-logo-img").classList.remove('active');
-    document.getElementById("math-game-app-img").classList.remove('active');
-    document.getElementById("math-game-app-img2").classList.remove('active');
-    document.getElementById("monster1-img").classList.remove('active');
-    document.getElementById("math-game-app-img").classList.add('active');
-  });
-  document.getElementById("monster1").addEventListener("click", function() {
-    document.getElementById("language-learning-app-img").classList.remove('active');
-    document.getElementById("restaurant-logo-img").classList.remove('active');
-    document.getElementById("math-game-app-img").classList.remove('active');
-    document.getElementById("math-game-app-img2").classList.remove('active');
-    document.getElementById("monster1-img").classList.remove('active');
-    document.getElementById("monster1-img").classList.add('active');
-  });
-
+  // document.getElementById("math-game-app").addEventListener("click", function() {
+  //   document.getElementById("language-learning-app-img").classList.remove('active');
+  //   document.getElementById("restaurant-logo-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img2").classList.remove('active');
+  //   document.getElementById("monster1-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img").classList.add('active');
+  // });
+  // document.getElementById("monster1").addEventListener("click", function() {
+  //   document.getElementById("language-learning-app-img").classList.remove('active');
+  //   document.getElementById("restaurant-logo-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img2").classList.remove('active');
+  //   document.getElementById("monster1-img").classList.remove('active');
+  //   document.getElementById("monster1-img").classList.add('active');
+  // });
+  // document.getElementById("bookcover").addEventListener("click", function() {
+  //   document.getElementById("bookcover-img").classList.remove('active');
+  //   document.getElementById("language-learning-app-img").classList.remove('active');
+  //   document.getElementById("restaurant-logo-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img").classList.remove('active');
+  //   document.getElementById("math-game-app-img2").classList.remove('active');
+  //   document.getElementById("monster1-img").classList.remove('active');
+  //   document.getElementById("bookcover-img").classList.add('active');
+  // });
   document.getElementById("booklet").addEventListener("click", function() {
     window.location.href = './booklet.html'; 
   });
