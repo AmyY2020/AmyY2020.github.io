@@ -250,7 +250,7 @@ p {
     transition: 0.5s all ease-in-out;
 }
 .logo-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .print-image {
