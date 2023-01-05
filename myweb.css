@@ -247,7 +247,12 @@ p {
 .logo-image {
     width: 100%;
     height: auto;
+    transition: 0.5s all ease-in-out;
 }
+.logo-image:hover {
+    transform: scale(1.5);
+}
+
 .print-image {
     width: 50%;
     height: auto;
@@ -255,6 +260,7 @@ p {
 .view-item-wrapper {
     position: relative;
     margin-top: 80px;
+    overflow: hidden;
 }
 .cursor-point {
     cursor: pointer;
